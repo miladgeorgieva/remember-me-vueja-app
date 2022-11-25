@@ -17,7 +17,7 @@ export default {
   components: {
     "learning-resource": LeaningResource,
   },
-  props: ['resources'],
+  inject: ['resources'],
 };
 </script>
 
